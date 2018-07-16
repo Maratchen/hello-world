@@ -1,2 +1,5 @@
 # hello-world
-I made the repository while was reading the guide
+
+Hi everyone!
+
+I like c++ and I'm going to use GitHub as a new home for my pet projects while trying improve my scills.
