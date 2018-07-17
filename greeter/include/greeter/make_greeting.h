@@ -1,7 +1,7 @@
 #pragma once
 
 #include <string>
-#include "config.h"
+#include <greeter/config.h>
 
 namespace greeter
 {

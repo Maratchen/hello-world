@@ -1,7 +1,8 @@
 #include <iostream>
+#include <greeter/make_greeting.h>
 
 int main(int argc, const char* argv[])
 {
-  [res=std::ref(std::cout << "Hello")] { res.get() << " World!\n"; }();
+  std::cout << greeter::make_greeting("World") << std::endl;
   return 0;
 }
