@@ -8,12 +8,8 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY
     "Single directory for all Libraries"
 )
 
+include(${CMAKE_BINARY_DIR}/conan_paths.cmake)
 add_subdirectory(greeter)
 
-add_executable(hello
-    src/main.cpp
-)
-
-target_link_libraries(hello
-    greeter_lib
-)
+add_executable(hello src/main.cpp)
+target_link_libraries(hello greeter_lib)

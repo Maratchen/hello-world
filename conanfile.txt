@@ -1,0 +1,6 @@
+[requires]
+fmt/5.1.0@bincrafters/stable
+
+[generators]
+cmake_find_package
+cmake_paths

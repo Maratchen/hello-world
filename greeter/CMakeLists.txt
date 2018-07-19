@@ -15,3 +15,6 @@ if(BUILD_SHARED_LIBS)
   target_compile_definitions(greeter_lib PRIVATE GREETER_EXPORTS)
   target_compile_definitions(greeter_lib INTERFACE GREETER_IMPORTS)
 endif()
+
+find_package(fmt REQUIRED)
+target_link_libraries(greeter_lib fmt::fmt)
